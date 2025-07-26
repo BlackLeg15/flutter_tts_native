@@ -19,7 +19,7 @@ class _MyAppState extends State<MyApp> {
 
   // Platform messages are asynchronous, so we initialize in an async method.
   Future<void> speak() {
-    return _flutterTtsNativePlugin.speak('Olá, mundo!');
+    return _flutterTtsNativePlugin.speak('Olá mundo');
   }
 
   @override
